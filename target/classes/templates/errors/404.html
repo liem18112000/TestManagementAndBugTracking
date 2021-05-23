@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/app}">
+<head>
+	<meta charset="UTF-8">
+	<title layout:fragment="title">404 | Not Found</title>
+	<style>
+		#main {
+		    height: 100vh;
+		}
+	</style>
+</head>
+<body>
+
+	<section layout:fragment="navbar">
+
+	</section>
+
+	<section layout:fragment="content">
+		<div class="d-flex justify-content-center align-items-center" id="main">
+			<h1 class="mr-3 pr-3 align-top border-right inline-block align-content-center">404</h1>
+			<div class="inline-block align-middle">
+				<h2 class="font-weight-normal lead" id="desc">The page you requested was not found.</h2>
+			</div>
+		</div>
+
+	</section>
+
+</body>
+</html>

@@ -1,4 +1,3 @@
-com\pm\app\user\UserController.class
 com\pm\app\user\register\RegisterController.class
 com\pm\app\user\profile\CreateProfileRequest.class
 com\pm\app\user\auth\AuthenticateRequest.class
@@ -25,5 +24,6 @@ com\pm\app\user\register\RegisterRequest.class
 com\pm\app\user\User.class
 com\pm\app\static_pages\IndexController.class
 com\pm\app\config\security\WebSecurityConfig.class
+com\pm\app\user\UserEndPoint.class
 com\pm\app\user\UserService.class
 com\pm\app\user\UserRepository.class

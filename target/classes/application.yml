@@ -18,5 +18,5 @@ spring:
             enabled: true
             path: /console/db
             settings:
-                trace: false
-                web-allow-others: false
+                trace: true
+                web-allow-others: true
